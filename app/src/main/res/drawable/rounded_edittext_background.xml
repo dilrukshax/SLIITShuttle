@@ -1,0 +1,6 @@
+<!-- rounded_edittext_background.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <solid android:color="@android:color/white"/> <!-- Background color of the EditText -->
+    <corners android:radius="35dp"/> <!-- Adjust the radius to change the roundness of corners -->
+    <stroke android:color="#007CFF" android:width="2dp"/> <!-- Border color and width -->
+</shape>

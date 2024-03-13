@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">SLIITShuttle</string>
+    <string name="Welcome">Welcome! \nSLIIT Shuttle </string>
+    <string name="Key">"Key Features:
+        \nReal-time Bus Tracking: Illustration of a bus moving along a route on a map.
+        \nEasy Fare Payment: Icon representing digital payment methods.
+        \nAccount Management: Graphic depicting user profile and account settings."</string>
+    <string name="onbrd3">Signing up for an account.\n
+Selecting preferred bus routes.</string>
+    <string name="Get">Get Started</string>
+    <string name="signin">SING IN</string>
+    <string name="singup">SIGN UP</string>
+    <string name="haveAcc">Already have an account?</string>
+    <string name="NM">Negombo - Malabe</string>
+    <string name="PM">Panadura - Malabe</string>
+    <string name="KM">Kolpity - Malabe</string>
+</resources>

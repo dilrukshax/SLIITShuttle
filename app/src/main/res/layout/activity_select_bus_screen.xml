@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".select_bus_screen">
+
+
+
+    <!-- Navigation panel -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textFindMyBus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="50dp"
+            android:text="Bus"
+            android:textColor="#007CFF"
+            android:textSize="36sp"
+            android:textStyle="bold"/>
+
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="380dp"
+            android:layout_height="204dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/bg_"
+            android:src="@drawable/group_9"
+            android:elevation="8dp"
+             />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="380dp"
+            android:layout_height="204dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/bg_"
+            android:src="@drawable/group_10"
+            android:elevation="8dp"
+             />
+
+    </LinearLayout>
+
+    <!-- Navigation panel -->
+
+    <LinearLayout
+        android:id="@+id/navigationPanel"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:orientation="horizontal"
+        android:background="@color/SecondaryColor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <!-- Home icon -->
+        <ImageButton
+            android:id="@+id/imageViewHome"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/ic_home"
+            android:padding="8dp"
+            android:background="@color/SecondaryColor"
+            />
+
+        <!-- Card icon -->
+        <ImageButton
+            android:id="@+id/imageViewCard"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/ic_card"
+            android:padding="8dp"
+            android:background="@color/SecondaryColor"
+            />
+
+        <!-- QR icon -->
+        <ImageButton
+            android:id="@+id/imageViewQR"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/ic_qr"
+            android:padding="8dp"
+            android:background="@color/SecondaryColor"
+            />
+
+        <!-- Profile icon -->
+        <ImageButton
+            android:id="@+id/imageViewProfile"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/ic_profile"
+            android:padding="8dp"
+            android:background="@color/SecondaryColor"
+            />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

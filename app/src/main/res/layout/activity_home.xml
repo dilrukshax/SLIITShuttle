@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/bg_rounded"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textFindMyBus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="50dp"
+            android:text="Find my bus"
+            android:textColor="@color/white"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            android:elevation="8dp"/>
+
+        <EditText
+            android:id="@+id/editTextSearch"
+            android:layout_width="345dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/rounded_edittext_background"
+            android:hint="Search"
+            android:padding="12dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:elevation="8dp"/>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="640dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@+id/navigationPanel"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4"
+        tools:layout_editor_absoluteX="0dp">
+
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="380dp"
+            android:layout_height="162dp"
+            android:background="@drawable/bg_"
+            android:src="@drawable/_0240223_181642_1"
+            android:elevation="8dp"/>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:text="Negombo - Malabe"
+            android:textColor="#053769"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:elevation="8dp"/>
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="380dp"
+            android:layout_height="162dp"
+            android:background="@drawable/bg_"
+            android:src="@drawable/_0240223_181705_1"
+            android:elevation="8dp"
+            />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:text="Panadura - Malabe"
+            android:textColor="#053769"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:elevation="8dp"/>
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="380dp"
+            android:layout_height="162dp"
+            android:background="@drawable/bg_"
+            android:src="@drawable/_0240223_181730_1"
+            android:elevation="8dp"
+             />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:text="Kolpity - Malabe"
+            android:textColor="#053769"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:elevation="8dp"/>
+
+    </LinearLayout>
+
+    <!-- Navigation panel -->
+
+    <LinearLayout
+        android:id="@+id/navigationPanel"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:orientation="horizontal"
+        android:background="@color/SecondaryColor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <!-- Home icon -->
+        <ImageButton
+            android:id="@+id/imageViewHome"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/ic_home"
+            android:padding="8dp"
+            android:background="@color/SecondaryColor"
+            />
+
+        <!-- Card icon -->
+        <ImageButton
+            android:id="@+id/imageViewCard"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/ic_card"
+            android:padding="8dp"
+            android:background="@color/SecondaryColor"
+            />
+
+        <!-- QR icon -->
+        <ImageButton
+            android:id="@+id/imageViewQR"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/ic_qr"
+            android:padding="8dp"
+            android:background="@color/SecondaryColor"
+            />
+
+        <!-- Profile icon -->
+        <ImageButton
+            android:id="@+id/imageViewProfile"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/ic_profile"
+            android:padding="8dp"
+            android:background="@color/SecondaryColor"
+            />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

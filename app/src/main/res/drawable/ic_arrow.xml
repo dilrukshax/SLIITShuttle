@@ -1,0 +1,44 @@
+<!-- ic_arrow.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Transparent circle background -->
+    <item android:drawable="@android:color/transparent" />
+
+    <!-- Arrow shape -->
+    <item
+        android:width="24dp"
+        android:height="24dp"
+        android:gravity="center">
+        <rotate
+            android:fromDegrees="0"
+            android:toDegrees="0">
+            <shape
+                android:shape="line">
+                <stroke
+                    android:width="2dp"
+                    android:color="#FFFFFF" /> <!-- White color -->
+                <size
+                    android:width="12dp"
+                    android:height="12dp" />
+            </shape>
+        </rotate>
+    </item>
+    <!-- Add another item for the horizontal line -->
+    <item
+        android:width="24dp"
+        android:height="24dp"
+        android:gravity="center">
+        <rotate
+            android:fromDegrees="0"
+            android:toDegrees="0">
+            <shape
+                android:shape="line">
+                <stroke
+                    android:width="2dp"
+                    android:color="#FFFFFF" /> <!-- White color -->
+                <size
+                    android:width="12dp"
+                    android:height="12dp" />
+            </shape>
+        </rotate>
+    </item>
+</layer-list>
